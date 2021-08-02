@@ -1,0 +1,265 @@
+
+/* .image-card{
+    background-image: url('images/polaris.png') ;
+    background-size: contain;
+    background-repeat: no-repeat
+} */
+.rating-card{
+    /* background-image: ; */
+    height: 100%;
+}
+.write-review{
+        background:#00296b !important;
+        color: #fff;
+        border: none;
+        padding: 13px 30px;
+}
+.write-review:focus{
+    background:#ffffff !important;
+        color:#00296b;
+        border: 1px solid #00296b;
+        text-decoration: none;
+
+}
+.write-review:hover{
+    background:#ffffff !important;
+        color:#00296b;
+        border: 1px solid #00296b;
+        text-decoration: none;
+}
+.inner-card{
+    background-image: url(images/circle.png);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6%;
+}
+
+
+
+.review-message{
+    font-size: 17px;
+    color: #00296b;
+    font-weight: bold;
+}
+.user-img{
+    background-image: url(images/esther.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.reply-container{
+    background-color: #f7f7fc;
+    border-left: 4px solid #8992a0;
+}
+.reply-title {
+    font-size: 14px;
+    color: #10243d;
+    font-weight: bold;
+}
+.reply-message {
+    font-size: 14px;
+    color: #10243d;
+}
+.rating-stat{
+    display: grid;
+     padding: 41px;
+      margin-left: auto;
+}
+.rating-img-name{
+    display: flex; 
+    padding: 55px
+}
+
+@media (max-width: 767px) and (min-width: 373px){
+    .rating-stat{
+        padding: 3px 64px 17px 64px !important;
+    }
+    .rating-img-name{
+        /* padding: 23px; */
+        padding-left: 11%;
+    }
+    .reply-comment{
+        font-size: 16px;
+    }
+    .like-thumb{
+        margin-right: 1rem;
+    }
+}
+
+.ratings-card{
+    height: 300px;
+    border-top: 3px solid #00296b;
+}
+
+@media (max-width: 767px){
+    .rating-card{
+        height: auto;
+    }
+}
+@media (max-width: 475px) and (min-width:376px){
+    .inner-card{
+        margin-top:10% !important;
+    }
+}
+@media (max-width:376px) and (min-width: 300px){
+    .inner-card{
+        margin-top: 11% !important;
+    }
+    .rating-number{
+        top:25%;
+        left: 31%;
+    }
+    .small-font{
+        font-size: 13px;
+    }
+    .rating-number p{
+        font-size: 7px;
+    }
+    .rating-number h2{
+        font-size: 23px;
+    }
+}
+.rating-number{
+    position: relative;
+    top: 33%;
+    left: 40%;
+}
+
+.rating-number p{
+    position: relative;
+    top: 52%;
+    left: -12%;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.rating-number h2{
+    margin-bottom: -2px;
+    margin-left: -6px
+}
+@media (min-width: 1200px){
+ .rating-number p{
+     left: -8px;
+ }   
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .rating-number{
+        top: 25%;
+    }
+.rating-number p{
+    left: -10px;
+}
+}
+@media (max-width: 992px) and (min-width: 768px){
+    .inner-card{
+        margin-top: 41px !important;
+    }
+    .rating-number{
+        top: 16%;
+        left: 36%;
+    }
+    .rating-number p{
+        font-size: 8px;
+    }
+}
+@media (width: 767px) {
+    
+    .rating-number{
+        top: 25% !important;
+    }
+    .rating-number p{
+        left: -11% !important;
+    }
+}
+
+@media (max-width: 766px) and (min-width: 500px){
+    .inner-card{
+        margin-left: auto;
+    }
+    .rating-number {
+        top: 31%;
+        left: 37%;
+    }
+    .rating-number p{
+        left: -9% ;
+    } 
+}
+@media (max-width: 500px) and (min-width: 478px){
+    .rating-number {
+        top: 31%;
+        left: 39% ;
+    } 
+}
+@media (max-width: 478px) and (min-width: 461px){
+
+    .inner-card{
+        margin-top: 36px !important;
+    }
+    .rating-number {
+        position: relative;
+        top: 28%;
+        left: 37%;
+    }
+}
+@media (max-width: 461px) and (min-width: 445px){
+
+    .rating-number {
+        top: 26%;
+        left: 35%;
+    }
+}
+@media (max-width: 444px) and (min-width: 433px){
+
+    .rating-number {     
+        top: 24%;
+        left: 33%;
+    }
+}
+@media (max-width: 432px) and (min-width: 407px){
+
+    .rating-number {     
+        top: 22%;
+        left: 31%;
+    }
+    .rating-number p {     
+        left: -10%;
+        font-size: 8px;
+    }
+}
+@media (max-width: 406px) and (min-width: 359px){
+
+    .rating-number {     
+        top: 25%;
+        left: 38%;
+    }
+    .rating-number p {     
+        left: -16%;
+        font-size: 7px;
+    }
+    .rating-number h2{
+        left: -10px !important;
+    }
+}
+@media (max-width: 359px) and (min-width: 300px){
+
+    .rating-number {     
+        top: 25%;
+        left: 38%;
+    }
+    .rating-number p {     
+        left: -10%;
+    font-size: 5px;
+    }
+    .rating-number h2{
+        font-size: 21px !important;
+
+    }
+}
+
+.product-img{
+    background-image: url(images/tajbank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

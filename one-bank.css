@@ -1,0 +1,239 @@
+
+/* .image-card{
+    background-image: url('images/polaris.png') ;
+    background-size: contain;
+    background-repeat: no-repeat
+} */
+/* .rating-card{
+    
+    height: 100%;
+} */
+.write-review{
+        background:#00296b !important;
+        color: #fff;
+        border: none;
+        padding: 13px 30px;
+}
+.write-review:focus{
+    background:#ffffff !important;
+        color:#00296b;
+        border: 1px solid #00296b;
+        text-decoration: none;
+
+}
+.write-review:hover{
+    background:#ffffff !important;
+        color:#00296b;
+        border: 1px solid #00296b;
+        text-decoration: none;
+}
+
+.inner-card{
+    background-image: url(images/circle.png);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    /* margin-top: 6%; */
+}
+
+
+
+.review-message{
+    font-size: 17px;
+    color: #00296b;
+    font-weight: bold;
+}
+.user-img{
+    background-image: url(images/esther.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.reply-container{
+    background-color: #f7f7fc;
+    border-left: 4px solid #8992a0;
+}
+.reply-title {
+    font-size: 14px;
+    color: #10243d;
+    font-weight: bold;
+}
+.reply-message {
+    font-size: 14px;
+    color: #10243d;
+}
+.rating-stat{
+    display: grid;
+     padding: 41px;
+      margin-left: auto;
+}
+.rating-img-name{
+    display: flex; 
+    padding: 55px
+}
+
+@media (max-width: 767px) and (min-width: 373px){
+    .rating-stat{
+        padding: 3px 64px 17px 64px !important;
+    }
+    .rating-img-name{
+        /* padding: 23px; */
+        padding-left: 11%;
+    }
+    .reply-comment{
+        font-size: 16px;
+    }
+    .like-thumb{
+        margin-right: 1rem;
+    }
+}
+
+.ratings-card{
+    height: 300px;
+    border-top: 3px solid #00296b;
+}
+@media(max-width: 991px) and (min-width:768px){
+    .ratings-card{
+        height: 250px;
+    }
+}
+@media (max-width: 550px){
+    .rating-card{
+        height: 270px;
+    }
+}
+@media (max-width:509px) and (min-width: 460px){
+    .p-size p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+@media (max-width:459px) and (min-width: 445px){
+    .p-size p {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+@media(max-width: 503px) and (min-width: 479px){
+    .rating-number span{
+        font-size: 14px;
+    }
+    .score{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+}
+@media(max-width: 478px) and (min-width: 460px){
+    .rating-number span{
+        font-size: 14px;
+    }
+    .score{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .rating-number h2 {
+        font-size: 2rem;
+        line-height: 0.8 !important;
+    }   
+}
+
+@media(max-width: 460px) and (min-width: 300px){
+    .rating-number span{
+        font-size: 13px;
+    }
+    .score{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .rating-number h2 {
+        font-size: 40px !important;
+        line-height: 0.8 !important;
+    }   
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .rating-number{
+        font-size: 16px;
+    }
+    .small-font{
+        padding-left: 20%;
+    }
+}
+@media (max-width:992px) and (min-width: 769px){
+    .inner-card{
+        margin-top: 6%;
+    }
+}
+.rating-number{
+    position: relative;
+    top: 22%;
+    left: 22%;
+    /* padding-left: aut; */
+    display: grid;
+    justify-items: center;
+    height: fit-content;
+}
+.rating-number h2{
+    font-size: 3rem;
+    line-height: 1.0;
+}
+
+@media (min-width: 1200px){
+    .inner-card{
+        margin-left: 10%;
+    }
+}
+@media (max-width:376px) and (min-width: 300px){
+    .inner-card{
+        margin-top: 11% !important;
+    }
+    .small-font{
+        font-size: 13px;
+    }    
+}
+
+
+@media (max-width: 992px) and (min-width: 768px){
+    
+    .rating-number p{
+        font-size: 12px;
+    }
+    .rating-number span{
+        font-size: 13px;
+    }
+    .rating-number h2{
+        font-size: 33px;
+        line-height: 0.8;
+    }
+}
+@media (max-width: 766px) and (min-width: 500px){
+    .inner-card{
+        margin-left: auto;
+    }
+}
+
+
+.product-img{
+    background-image: url(images/tajbank.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media(max-width: 446px) and (min-width: 404px){
+    .p-size p{
+        font-size: 10px;
+        font-weight: bolder !important;
+    }
+    .rating-number{
+        top:18%;
+        left: 18%;
+    }
+}
+@media (max-width: 403px) and (min-width: 350px){
+    .inner-card{
+        height: 203px !important;
+        margin-left: 62px !important;
+    }
+}
